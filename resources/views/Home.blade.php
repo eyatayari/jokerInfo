@@ -769,7 +769,7 @@
                                     <div class="slide-it">
                                         <div class="movie-item">
                                             <div class="mv-img">
-                                                <img src="images/uploads/mv-it7.jpg" alt="">
+                                                <img src="{{asset('img/uploads/mv-it7.jpg')}}" alt="">
                                             </div>
                                             <div class="hvr-inner">
                                                 <a  href="moviesingle.html"> Read more <i class="ion-android-arrow-dropright"></i> </a>
@@ -783,7 +783,7 @@
                                     <div class="slide-it">
                                         <div class="movie-item">
                                             <div class="mv-img">
-                                                <img src="images/uploads/mv-it8.jpg" alt="">
+                                                <img src="{{asset('img/uploads/mv-it8.jpg')}}" alt="">
                                             </div>
                                             <div class="hvr-inner">
                                                 <a  href="moviesingle.html"> Read more <i class="ion-android-arrow-dropright"></i> </a>
@@ -835,7 +835,7 @@
                     <div class="slider-nav-2 thumb-ft">
                         <div class="item">
                             <div class="trailer-img">
-                                <img src="images/uploads/trailer7.jpg"  alt="photo by Barn Images" width="4096" height="2737">
+                                <img src="{{asset('img/uploads/trailer7.jpg')}}"  alt="photo by Barn Images" width="4096" height="2737">
                             </div>
                             <div class="trailer-infor">
                                 <h4 class="desc">Wonder Woman</h4>
@@ -844,7 +844,7 @@
                         </div>
                         <div class="item">
                             <div class="trailer-img">
-                                <img src="images/uploads/trailer2.jpg"  alt="photo by Barn Images" 	width="350" height="200">
+                                <img src="{{asset('img/uploads/trailer2.jpg')}}"  alt="photo by Barn Images" 	width="350" height="200">
                             </div>
                             <div class="trailer-infor">
                                 <h4 class="desc">Oblivion: Official Teaser Trailer</h4>
@@ -853,7 +853,7 @@
                         </div>
                         <div class="item">
                             <div class="trailer-img">
-                                <img src="images/uploads/trailer6.jpg" alt="photo by Joshua Earle" width="509" height="301">
+                                <img src="{{asset('img/uploads/trailer6.jpg')}}" alt="photo by Joshua Earle" width="509" height="301">
                             </div>
                             <div class="trailer-infor">
                                 <h4 class="desc">Exclusive Interview:  Skull Island</h4>
@@ -862,7 +862,7 @@
                         </div>
                         <div class="item">
                             <div class="trailer-img">
-                                <img src="images/uploads/trailer3.png" alt="photo by Alexander Dimitrov" width="100" height="56">
+                                <img src="{{asset('img/uploads/trailer3.png')}}" alt="photo by Alexander Dimitrov" width="100" height="56">
                             </div>
                             <div class="trailer-infor">
                                 <h4 class="desc">Logan: Director James Mangold Interview</h4>

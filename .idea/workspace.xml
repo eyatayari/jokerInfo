@@ -2,263 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcecf939-5f70-441b-a604-196bb48a563a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/plugins.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/ajax-loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/fancybox_loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/fancybox_loading@2x.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/fancybox_overlay.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/fancybox_sprite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/fancybox_sprite@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/logo1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/nivo/close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/nivo/close@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/nivo/default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/nivo/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/nivo/loading@2x.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/nivo/next.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/nivo/next@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/nivo/prev.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/nivo/prev@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/owl.video.play.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/triangle.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/ads1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/ads2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/author.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/author2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/author3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/author4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/ava1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/ava2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/ava3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/ava4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/blog-detail.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/blog-detail2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/blog-it1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/blog-it2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/blog26.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/blog27.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/blog29.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/bloglist-it1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/bloglist-it2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/bloglist-it3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/bloglist-it4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/bloglist-it5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/bloglist-it6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/blogv21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/blogv22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/blogv23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/blogv24.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/blogv25.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/blogv29.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/cast1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/cast2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/cast3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/cast4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/cast5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/cast6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/cast7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/cast9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/ceb1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/ceb2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/ceb21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/ceb22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/ceb23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/ceb24.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/ceb25.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/ceb26.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/ceb27.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/ceb28.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/ceb29.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/ceb3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/ceb4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/ceb5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/ceb6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/ceb7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/ceb8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/ceb9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/ceblist1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/ceblist2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/ceblist3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/ceblist4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/ceblist5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/ceblist6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/ceblist7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/ceblist8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/cebsingle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/cebsingle2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/celeb-hero-single.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/celebsingle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/cm-img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/drop-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/err-img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/error-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/film1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/film2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/film3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/film4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/film5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/film6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/film7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/film8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/ft-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/heart-ico.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/hero-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/hero-bg2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/hero-bg3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/image1-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/image1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/image10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/image101.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/image11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/image111.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/image12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/image121.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/image13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/image131.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/image14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/image141.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/image15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/image151.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/image16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/image161.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/image17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/image171.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/image18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/image181.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/image19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/image191.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/image2-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/image2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/image20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/image201.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/image21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/image211.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/image3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/image31.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/image4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/image41.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/image5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/image51.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/image6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/image61.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/image7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/image71.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/image8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/image81.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/image9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/image91.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/media-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/media-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/media-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/movie-single.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/mv-it1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/mv-it10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/mv-it11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/mv-it12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/mv-it2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/mv-it3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/mv-it4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/mv-it5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/mv-it6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/mv-it7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/mv-it8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/mv-it9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/mv-item1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/mv-item10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/mv-item11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/mv-item12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/mv-item2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/mv-item3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/mv-item4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/mv-item5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/mv-item6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/mv-item7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/mv-item8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/mv-item9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/mv1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/mv2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/mv3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/mv4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/mv5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/play-btn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/play-vd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/poster1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/pt1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/pt10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/pt11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/pt12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/pt13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/pt14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/pt15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/pt2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/pt3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/pt4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/pt5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/pt6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/pt8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/pt9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/search-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/search-bgsb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/season.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/series-img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/share-ico.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/slider-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/slider-bg2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/slider-rate.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/slider1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/slider2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/slider3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/slider4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/sr-single-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/sr-single-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/sr-single-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/sr-single.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/topsearch.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/trailer2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/trailer2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/trailer3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/trailer4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/trailer5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/trailer6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/trailer7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/user-hero-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/user-img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/user-img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/userava1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/userava2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/userava3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/userava4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/userava5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/vd-item1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/vd-item2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/vd-item3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/vd-item4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/vd-item5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/vd-item6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/vd-item7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/vd-item8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/vd-itme1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uploads/vd-itme2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/white joker.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/plugins.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/plugins2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Home.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/MovieSingle.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/inc/footer.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/inc/head.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/inc/header.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/inc/scripts.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/uploads/ft-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/uploads/ft-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/white joker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/inc/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/inc/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -279,31 +29,35 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="css" value="1" />
           <entry key="env" value="2" />
           <entry key="example" value="1" />
           <entry key="html" value="2" />
-          <entry key="php" value="51" />
+          <entry key="php" value="59" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key=".env file" value="3" />
-          <entry key="Blade" value="20" />
+          <entry key="Blade" value="25" />
+          <entry key="CSS" value="1" />
           <entry key="HTML" value="2" />
-          <entry key="PHP" value="31" />
+          <entry key="PHP" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="css" value="2" />
           <entry key="dummy" value="1" />
           <entry key="env" value="9" />
-          <entry key="php" value="698" />
+          <entry key="php" value="784" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key=".env file" value="9" />
-          <entry key="Blade" value="343" />
+          <entry key="Blade" value="429" />
+          <entry key="CSS" value="2" />
           <entry key="PHP" value="355" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
@@ -311,50 +65,87 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/config/auth.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-510" />
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/database/migrations/2021_03_23_145626_create_films_table.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="340">
-                  <caret line="22" column="40" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="40" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/Models/Film.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="221">
-                  <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/Models/Film.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="170">
-                  <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/auth.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-510" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2021_03_23_145626_create_films_table.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="22" column="40" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/Home.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="867" column="52" selection-start-line="867" selection-start-column="52" selection-end-line="867" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="6688" column="21" lean-forward="true" selection-start-line="6688" selection-start-column="21" selection-end-line="6688" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/layouts/inc/head.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/layouts/inc/header.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="13" column="85" selection-start-line="13" selection-start-column="85" selection-end-line="13" selection-end-column="85" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/layouts/layout.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/layouts/inc/scripts.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Models/Film.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -371,10 +162,17 @@
       <find>white joker</find>
       <find>logo1</find>
       <find>jokeinfo</find>
+      <find>images</find>
+      <find>images/</find>
+      <find>white jocker</find>
+      <find>white_jocker</find>
     </findStrings>
     <replaceStrings>
       <replace>white joker</replace>
       <replace>logo1</replace>
+      <replace>img/</replace>
+      <replace>white_jocker</replace>
+      <replace>white_joker</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -386,9 +184,7 @@
         <option value="$PROJECT_DIR$/resources/views/layouts/inc/head.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/inc/footer.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/inc/scripts.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/inc/header.blade.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/MovieSingle.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2021_03_23_160448_relations.php" />
@@ -397,6 +193,10 @@
         <option value="$PROJECT_DIR$/database/migrations/2021_03_23_160739_create_actors_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2021_03_23_145626_create_films_table.php" />
         <option value="$PROJECT_DIR$/app/Models/Film.php" />
+        <option value="$PROJECT_DIR$/resources/views/Home.blade.php" />
+        <option value="$PROJECT_DIR$/public/css/style.css" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/inc/header.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" />
       </list>
     </option>
   </component>
@@ -566,6 +366,43 @@
               <item name="database" type="462c0819:PsiDirectoryNode" />
               <item name="migrations" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Jokerinfo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Jokerinfo" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Jokerinfo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Jokerinfo" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Jokerinfo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Jokerinfo" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Jokerinfo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Jokerinfo" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Jokerinfo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Jokerinfo" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Jokerinfo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Jokerinfo" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+              <item name="inc" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -614,16 +451,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1616510973581</updated>
-      <workItem from="1616510978875" duration="6759000" />
+      <workItem from="1616510978875" duration="9360000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6759000" />
+    <option name="totallyTimeSpent" value="9360000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4968652" visible="true" weight="0.25683892" />
       <window_info id="Structure" order="1" sideWeight="0.50163937" side_tool="true" weight="0.30167174" />
@@ -708,41 +544,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/inc/scripts.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/inc/head.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/inc/footer.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="41" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/layout.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-700">
-          <caret line="12" column="39" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="39" />
-          <folding>
-            <element signature="n#div#1;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/inc/header.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="13" column="84" selection-start-line="13" selection-start-column="84" selection-end-line="13" selection-end-column="84" />
         </state>
       </provider>
     </entry>
@@ -756,17 +561,6 @@
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/Home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2822">
-          <caret line="867" column="52" selection-start-line="867" selection-start-column="52" selection-end-line="867" selection-end-column="52" />
-          <folding>
-            <element signature="n#div#1;n#!!top" />
-            <element signature="n#div#3;n#!!top" />
           </folding>
         </state>
       </provider>
@@ -838,13 +632,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2021_03_23_160411_create_film_actor_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2021_03_24_160448_relations.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -876,6 +663,26 @@
         <state relative-caret-position="-510" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Film.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2021_03_23_160411_create_film_actor_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Actor.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/User.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2021_03_23_145626_create_films_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -883,10 +690,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Film.php">
+    <entry file="file://$PROJECT_DIR$/public/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        <state relative-caret-position="210">
+          <caret line="6688" column="21" lean-forward="true" selection-start-line="6688" selection-start-column="21" selection-end-line="6688" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="867" column="52" selection-start-line="867" selection-start-column="52" selection-end-line="867" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/inc/head.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/inc/scripts.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/inc/header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="13" column="85" selection-start-line="13" selection-start-column="85" selection-end-line="13" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/layout.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
         </state>
       </provider>
     </entry>
