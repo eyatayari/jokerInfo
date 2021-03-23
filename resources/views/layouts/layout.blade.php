@@ -10,7 +10,7 @@
 @include('layouts.inc.head')
 <body>
 <div id="preloader">
-    <img class="logo" src="{{asset('img/logo1.png')}}" alt="" width="119" height="58">
+    <img class="logo" src="{{asset('img/white_joker.png')}}" alt="" width="119" height="58">
     <div id="status">
         <span></span>
         <span></span>
