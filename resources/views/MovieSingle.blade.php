@@ -18,7 +18,7 @@
         <div class="row ipad-width2">
             <div class="col-md-4 col-sm-12 col-xs-12">
                 <div class="movie-img sticky-sb">
-                    <img src="images/uploads/movie-single.jpg" alt="">
+                    <img src="{{$film->poster_path}}" alt="">
                     <div class="movie-btn">
                         <div class="btn-transform transform-vertical red">
                             <div><a href="#" class="item item-1 redbtn"> <i class="ion-play"></i> Watch Trailer</a></div>
@@ -33,7 +33,7 @@
             </div>
             <div class="col-md-8 col-sm-12 col-xs-12">
                 <div class="movie-single-ct main-content">
-                    <h1 class="bd-hd">Skyfall: Quantum of Spectre <span>2015</span></h1>
+                    <h1 class="bd-hd">{{$film->original_title}}</h1>
                     <div class="social-btn">
                         <a href="#" class="parent-btn"><i class="ion-heart"></i> Add to Favorite</a>
                         <div class="hover-bnt">
@@ -49,7 +49,7 @@
                     <div class="movie-rate">
                         <div class="rate">
                             <i class="ion-android-star"></i>
-                            <p><span>8.1</span> /10<br>
+                            <p><span>{{$film->vote_average}}</span> /10<br>
                                 <span class="rv">56 Reviews</span>
                             </p>
                         </div>
@@ -71,15 +71,14 @@
                             <ul class="tab-links tabs-mv">
                                 <li class="active"><a href="#overview">Overview</a></li>
                                 <li><a href="#reviews"> Reviews</a></li>
-                                <li><a href="#cast">  Cast & Crew </a></li>
-                                <li><a href="#media"> Media</a></li>
+
                                 <li><a href="#moviesrelated"> Related Movies</a></li>
                             </ul>
                             <div class="tab-content">
                                 <div id="overview" class="tab active">
                                     <div class="row">
                                         <div class="col-md-8 col-sm-12 col-xs-12">
-                                            <p>Tony Stark creates the Ultron Program to protect the world, but when the peacekeeping program becomes hostile, The Avengers go into action to try and defeat a virtually impossible enemy together. Earth's mightiest heroes must come together once again to protect the world from global extinction.</p>
+                                            <p>{{$film->overview}}</p>
                                             <div class="title-hd-sm">
                                                 <h4>Videos & Photos</h4>
                                                 <a href="#" class="time">All 5 Videos & 245 Photos <i class="ion-ios-arrow-right"></i></a>
@@ -200,7 +199,7 @@
                                             </div>
                                             <div class="sb-it">
                                                 <h6>Release Date:</h6>
-                                                <p>May 1, 2015 (U.S.A)</p>
+                                                <p>{{$film->release_date}} </p>
                                             </div>
                                             <div class="sb-it">
                                                 <h6>Run Time:</h6>
@@ -596,131 +595,131 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div id="media" class="tab">
-                                    <div class="row">
-                                        <div class="rv-hd">
-                                            <div>
-                                                <h3>Videos & Photos of</h3>
-                                                <h2>Skyfall: Quantum of Spectre</h2>
-                                            </div>
-                                        </div>
-                                        <div class="title-hd-sm">
-                                            <h4>Videos <span>(8)</span></h4>
-                                        </div>
-                                        <div class="mvsingle-item media-item">
-                                            <div class="vd-item">
-                                                <div class="vd-it">
-                                                    <img class="vd-img" src="images/uploads/vd-item1.jpg" alt="">
-                                                    <a class="fancybox-media hvr-grow"  href="https://www.youtube.com/embed/o-0hcF97wy0"><img src="images/uploads/play-vd.png" alt=""></a>
-                                                </div>
-                                                <div class="vd-infor">
-                                                    <h6> <a href="#">Trailer:  Watch New Scenes</a></h6>
-                                                    <p class="time"> 1: 31</p>
-                                                </div>
-                                            </div>
-                                            <div class="vd-item">
-                                                <div class="vd-it">
-                                                    <img class="vd-img" src="images/uploads/vd-item2.jpg" alt="">
-                                                    <a class="fancybox-media hvr-grow" href="https://www.youtube.com/embed/o-0hcF97wy0"><img src="images/uploads/play-vd.png" alt=""></a>
-                                                </div>
-                                                <div class="vd-infor">
-                                                    <h6> <a href="#">Featurette: “Avengers Re-Assembled</a></h6>
-                                                    <p class="time"> 1: 03</p>
-                                                </div>
-                                            </div>
-                                            <div class="vd-item">
-                                                <div class="vd-it">
-                                                    <img class="vd-img" src="images/uploads/vd-item3.jpg" alt="">
-                                                    <a class="fancybox-media hvr-grow" href="https://www.youtube.com/embed/o-0hcF97wy0"><img src="images/uploads/play-vd.png" alt=""></a>
-                                                </div>
-                                                <div class="vd-infor">
-                                                    <h6> <a href="#">Interview: Robert Downey Jr</a></h6>
-                                                    <p class="time"> 3:27</p>
-                                                </div>
-                                            </div>
-                                            <div class="vd-item">
-                                                <div class="vd-it">
-                                                    <img class="vd-img" src="images/uploads/vd-item4.jpg" alt="">
-                                                    <a class="fancybox-media hvr-grow" href="https://www.youtube.com/embed/o-0hcF97wy0"><img src="images/uploads/play-vd.png" alt=""></a>
-                                                </div>
-                                                <div class="vd-infor">
-                                                    <h6> <a href="#">Interview: Scarlett Johansson</a></h6>
-                                                    <p class="time"> 3:27</p>
-                                                </div>
-                                            </div>
-                                            <div class="vd-item">
-                                                <div class="vd-it">
-                                                    <img class="vd-img" src="images/uploads/vd-item1.jpg" alt="">
-                                                    <a class="fancybox-media hvr-grow" href="https://www.youtube.com/embed/o-0hcF97wy0"><img src="images/uploads/play-vd.png" alt=""></a>
-                                                </div>
-                                                <div class="vd-infor">
-                                                    <h6> <a href="#">Featurette: Meet Quicksilver & The Scarlet Witch</a></h6>
-                                                    <p class="time"> 1: 31</p>
-                                                </div>
-                                            </div>
-                                            <div class="vd-item">
-                                                <div class="vd-it">
-                                                    <img class="vd-img" src="images/uploads/vd-item2.jpg" alt="">
-                                                    <a class="fancybox-media hvr-grow" href="https://www.youtube.com/embed/o-0hcF97wy0"><img src="images/uploads/play-vd.png" alt=""></a>
-                                                </div>
-                                                <div class="vd-infor">
-                                                    <h6> <a href="#">Interview: Director Joss Whedon</a></h6>
-                                                    <p class="time"> 1: 03</p>
-                                                </div>
-                                            </div>
-                                            <div class="vd-item">
-                                                <div class="vd-it">
-                                                    <img class="vd-img" src="images/uploads/vd-item3.jpg" alt="">
-                                                    <a class="fancybox-media hvr-grow" href="https://www.youtube.com/embed/o-0hcF97wy0"><img src="images/uploads/play-vd.png" alt=""></a>
-                                                </div>
-                                                <div class="vd-infor">
-                                                    <h6> <a href="#">Interview: Mark Ruffalo</a></h6>
-                                                    <p class="time"> 3:27</p>
-                                                </div>
-                                            </div>
-                                            <div class="vd-item">
-                                                <div class="vd-it">
-                                                    <img class="vd-img" src="images/uploads/vd-item4.jpg" alt="">
-                                                    <a class="fancybox-media hvr-grow" href="https://www.youtube.com/embed/o-0hcF97wy0"><img src="images/uploads/play-vd.png" alt=""></a>
-                                                </div>
-                                                <div class="vd-infor">
-                                                    <h6> <a href="#">Official Trailer #2</a></h6>
-                                                    <p class="time"> 3:27</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="title-hd-sm">
-                                            <h4>Photos <span> (21)</span></h4>
-                                        </div>
-                                        <div class="mvsingle-item">
-                                            <a class="img-lightbox"  data-fancybox-group="gallery" href="images/uploads/image11.jpg" ><img src="images/uploads/image1.jpg" alt=""></a>
-                                            <a class="img-lightbox"  data-fancybox-group="gallery"  href="images/uploads/image21.jpg" ><img src="images/uploads/image2.jpg" alt=""></a>
-                                            <a class="img-lightbox"  data-fancybox-group="gallery" href="images/uploads/image31.jpg" ><img src="images/uploads/image3.jpg" alt=""></a>
-                                            <a class="img-lightbox"  data-fancybox-group="gallery" href="images/uploads/image41.jpg" ><img src="images/uploads/image4.jpg" alt=""></a>
-                                            <a class="img-lightbox"  data-fancybox-group="gallery" href="images/uploads/image51.jpg" ><img src="images/uploads/image5.jpg" alt=""></a>
-                                            <a class="img-lightbox"  data-fancybox-group="gallery" href="images/uploads/image61.jpg" ><img src="images/uploads/image6.jpg" alt=""></a>
-                                            <a class="img-lightbox"  data-fancybox-group="gallery" href="images/uploads/image71.jpg" ><img src="images/uploads/image7.jpg" alt=""></a>
-                                            <a class="img-lightbox"  data-fancybox-group="gallery" href="images/uploads/image81.jpg" ><img src="images/uploads/image8.jpg" alt=""></a>
-                                            <a class="img-lightbox"  data-fancybox-group="gallery" href="images/uploads/image91.jpg" ><img src="images/uploads/image9.jpg" alt=""></a>
-                                            <a class="img-lightbox"  data-fancybox-group="gallery" href="images/uploads/image101.jpg" ><img src="images/uploads/image10.jpg" alt=""></a>
-                                            <a class="img-lightbox"  data-fancybox-group="gallery" href="images/uploads/image111.jpg" ><img src="images/uploads/image1-1.jpg" alt=""></a>
-                                            <a class="img-lightbox"  data-fancybox-group="gallery" href="images/uploads/image121.jpg" ><img src="images/uploads/image12.jpg" alt=""></a>
-                                            <a class="img-lightbox"  data-fancybox-group="gallery" href="images/uploads/image131.jpg" ><img src="images/uploads/image13.jpg" alt=""></a>
-                                            <a class="img-lightbox"  data-fancybox-group="gallery" href="images/uploads/image141.jpg" ><img src="images/uploads/image14.jpg" alt=""></a>
-                                            <a class="img-lightbox"  data-fancybox-group="gallery" href="images/uploads/image151.jpg" ><img src="images/uploads/image15.jpg" alt=""></a>
-                                            <a class="img-lightbox"  data-fancybox-group="gallery" href="images/uploads/image161.jpg" ><img src="images/uploads/image16.jpg" alt=""></a>
-                                            <a class="img-lightbox"  data-fancybox-group="gallery" href="images/uploads/image171.jpg" ><img src="images/uploads/image17.jpg" alt=""></a>
-                                            <a class="img-lightbox"  data-fancybox-group="gallery" href="images/uploads/image181.jpg" ><img src="images/uploads/image18.jpg" alt=""></a>
-                                            <a class="img-lightbox"  data-fancybox-group="gallery" href="images/uploads/image191.jpg" ><img src="images/uploads/image19.jpg" alt=""></a>
-                                            <a class="img-lightbox"  data-fancybox-group="gallery" href="images/uploads/image201.jpg" ><img src="images/uploads/image20.jpg" alt=""></a>
-                                            <a class="img-lightbox"  data-fancybox-group="gallery" href="images/uploads/image211.jpg" ><img src="images/uploads/image2-1.jpg" alt=""></a>
-                                        </div>
-                                    </div>
-                                </div>
+                                {{--<div id="media" class="tab">--}}
+                                    {{--<div class="row">--}}
+                                        {{--<div class="rv-hd">--}}
+                                            {{--<div>--}}
+                                                {{--<h3>Videos & Photos of</h3>--}}
+                                                {{--<h2>Skyfall: Quantum of Spectre</h2>--}}
+                                            {{--</div>--}}
+                                        {{--</div>--}}
+                                        {{--<div class="title-hd-sm">--}}
+                                            {{--<h4>Videos <span>(8)</span></h4>--}}
+                                        {{--</div>--}}
+                                        {{--<div class="mvsingle-item media-item">--}}
+                                            {{--<div class="vd-item">--}}
+                                                {{--<div class="vd-it">--}}
+                                                    {{--<img class="vd-img" src="images/uploads/vd-item1.jpg" alt="">--}}
+                                                    {{--<a class="fancybox-media hvr-grow"  href="https://www.youtube.com/embed/o-0hcF97wy0"><img src="images/uploads/play-vd.png" alt=""></a>--}}
+                                                {{--</div>--}}
+                                                {{--<div class="vd-infor">--}}
+                                                    {{--<h6> <a href="#">Trailer:  Watch New Scenes</a></h6>--}}
+                                                    {{--<p class="time"> 1: 31</p>--}}
+                                                {{--</div>--}}
+                                            {{--</div>--}}
+                                            {{--<div class="vd-item">--}}
+                                                {{--<div class="vd-it">--}}
+                                                    {{--<img class="vd-img" src="images/uploads/vd-item2.jpg" alt="">--}}
+                                                    {{--<a class="fancybox-media hvr-grow" href="https://www.youtube.com/embed/o-0hcF97wy0"><img src="images/uploads/play-vd.png" alt=""></a>--}}
+                                                {{--</div>--}}
+                                                {{--<div class="vd-infor">--}}
+                                                    {{--<h6> <a href="#">Featurette: “Avengers Re-Assembled</a></h6>--}}
+                                                    {{--<p class="time"> 1: 03</p>--}}
+                                                {{--</div>--}}
+                                            {{--</div>--}}
+                                            {{--<div class="vd-item">--}}
+                                                {{--<div class="vd-it">--}}
+                                                    {{--<img class="vd-img" src="images/uploads/vd-item3.jpg" alt="">--}}
+                                                    {{--<a class="fancybox-media hvr-grow" href="https://www.youtube.com/embed/o-0hcF97wy0"><img src="images/uploads/play-vd.png" alt=""></a>--}}
+                                                {{--</div>--}}
+                                                {{--<div class="vd-infor">--}}
+                                                    {{--<h6> <a href="#">Interview: Robert Downey Jr</a></h6>--}}
+                                                    {{--<p class="time"> 3:27</p>--}}
+                                                {{--</div>--}}
+                                            {{--</div>--}}
+                                            {{--<div class="vd-item">--}}
+                                                {{--<div class="vd-it">--}}
+                                                    {{--<img class="vd-img" src="images/uploads/vd-item4.jpg" alt="">--}}
+                                                    {{--<a class="fancybox-media hvr-grow" href="https://www.youtube.com/embed/o-0hcF97wy0"><img src="images/uploads/play-vd.png" alt=""></a>--}}
+                                                {{--</div>--}}
+                                                {{--<div class="vd-infor">--}}
+                                                    {{--<h6> <a href="#">Interview: Scarlett Johansson</a></h6>--}}
+                                                    {{--<p class="time"> 3:27</p>--}}
+                                                {{--</div>--}}
+                                            {{--</div>--}}
+                                            {{--<div class="vd-item">--}}
+                                                {{--<div class="vd-it">--}}
+                                                    {{--<img class="vd-img" src="images/uploads/vd-item1.jpg" alt="">--}}
+                                                    {{--<a class="fancybox-media hvr-grow" href="https://www.youtube.com/embed/o-0hcF97wy0"><img src="images/uploads/play-vd.png" alt=""></a>--}}
+                                                {{--</div>--}}
+                                                {{--<div class="vd-infor">--}}
+                                                    {{--<h6> <a href="#">Featurette: Meet Quicksilver & The Scarlet Witch</a></h6>--}}
+                                                    {{--<p class="time"> 1: 31</p>--}}
+                                                {{--</div>--}}
+                                            {{--</div>--}}
+                                            {{--<div class="vd-item">--}}
+                                                {{--<div class="vd-it">--}}
+                                                    {{--<img class="vd-img" src="images/uploads/vd-item2.jpg" alt="">--}}
+                                                    {{--<a class="fancybox-media hvr-grow" href="https://www.youtube.com/embed/o-0hcF97wy0"><img src="images/uploads/play-vd.png" alt=""></a>--}}
+                                                {{--</div>--}}
+                                                {{--<div class="vd-infor">--}}
+                                                    {{--<h6> <a href="#">Interview: Director Joss Whedon</a></h6>--}}
+                                                    {{--<p class="time"> 1: 03</p>--}}
+                                                {{--</div>--}}
+                                            {{--</div>--}}
+                                            {{--<div class="vd-item">--}}
+                                                {{--<div class="vd-it">--}}
+                                                    {{--<img class="vd-img" src="images/uploads/vd-item3.jpg" alt="">--}}
+                                                    {{--<a class="fancybox-media hvr-grow" href="https://www.youtube.com/embed/o-0hcF97wy0"><img src="images/uploads/play-vd.png" alt=""></a>--}}
+                                                {{--</div>--}}
+                                                {{--<div class="vd-infor">--}}
+                                                    {{--<h6> <a href="#">Interview: Mark Ruffalo</a></h6>--}}
+                                                    {{--<p class="time"> 3:27</p>--}}
+                                                {{--</div>--}}
+                                            {{--</div>--}}
+                                            {{--<div class="vd-item">--}}
+                                                {{--<div class="vd-it">--}}
+                                                    {{--<img class="vd-img" src="images/uploads/vd-item4.jpg" alt="">--}}
+                                                    {{--<a class="fancybox-media hvr-grow" href="https://www.youtube.com/embed/o-0hcF97wy0"><img src="images/uploads/play-vd.png" alt=""></a>--}}
+                                                {{--</div>--}}
+                                                {{--<div class="vd-infor">--}}
+                                                    {{--<h6> <a href="#">Official Trailer #2</a></h6>--}}
+                                                    {{--<p class="time"> 3:27</p>--}}
+                                                {{--</div>--}}
+                                            {{--</div>--}}
+                                        {{--</div>--}}
+                                        {{--<div class="title-hd-sm">--}}
+                                            {{--<h4>Photos <span> (21)</span></h4>--}}
+                                        {{--</div>--}}
+                                        {{--<div class="mvsingle-item">--}}
+                                            {{--<a class="img-lightbox"  data-fancybox-group="gallery" href="images/uploads/image11.jpg" ><img src="images/uploads/image1.jpg" alt=""></a>--}}
+                                            {{--<a class="img-lightbox"  data-fancybox-group="gallery"  href="images/uploads/image21.jpg" ><img src="images/uploads/image2.jpg" alt=""></a>--}}
+                                            {{--<a class="img-lightbox"  data-fancybox-group="gallery" href="images/uploads/image31.jpg" ><img src="images/uploads/image3.jpg" alt=""></a>--}}
+                                            {{--<a class="img-lightbox"  data-fancybox-group="gallery" href="images/uploads/image41.jpg" ><img src="images/uploads/image4.jpg" alt=""></a>--}}
+                                            {{--<a class="img-lightbox"  data-fancybox-group="gallery" href="images/uploads/image51.jpg" ><img src="images/uploads/image5.jpg" alt=""></a>--}}
+                                            {{--<a class="img-lightbox"  data-fancybox-group="gallery" href="images/uploads/image61.jpg" ><img src="images/uploads/image6.jpg" alt=""></a>--}}
+                                            {{--<a class="img-lightbox"  data-fancybox-group="gallery" href="images/uploads/image71.jpg" ><img src="images/uploads/image7.jpg" alt=""></a>--}}
+                                            {{--<a class="img-lightbox"  data-fancybox-group="gallery" href="images/uploads/image81.jpg" ><img src="images/uploads/image8.jpg" alt=""></a>--}}
+                                            {{--<a class="img-lightbox"  data-fancybox-group="gallery" href="images/uploads/image91.jpg" ><img src="images/uploads/image9.jpg" alt=""></a>--}}
+                                            {{--<a class="img-lightbox"  data-fancybox-group="gallery" href="images/uploads/image101.jpg" ><img src="images/uploads/image10.jpg" alt=""></a>--}}
+                                            {{--<a class="img-lightbox"  data-fancybox-group="gallery" href="images/uploads/image111.jpg" ><img src="images/uploads/image1-1.jpg" alt=""></a>--}}
+                                            {{--<a class="img-lightbox"  data-fancybox-group="gallery" href="images/uploads/image121.jpg" ><img src="images/uploads/image12.jpg" alt=""></a>--}}
+                                            {{--<a class="img-lightbox"  data-fancybox-group="gallery" href="images/uploads/image131.jpg" ><img src="images/uploads/image13.jpg" alt=""></a>--}}
+                                            {{--<a class="img-lightbox"  data-fancybox-group="gallery" href="images/uploads/image141.jpg" ><img src="images/uploads/image14.jpg" alt=""></a>--}}
+                                            {{--<a class="img-lightbox"  data-fancybox-group="gallery" href="images/uploads/image151.jpg" ><img src="images/uploads/image15.jpg" alt=""></a>--}}
+                                            {{--<a class="img-lightbox"  data-fancybox-group="gallery" href="images/uploads/image161.jpg" ><img src="images/uploads/image16.jpg" alt=""></a>--}}
+                                            {{--<a class="img-lightbox"  data-fancybox-group="gallery" href="images/uploads/image171.jpg" ><img src="images/uploads/image17.jpg" alt=""></a>--}}
+                                            {{--<a class="img-lightbox"  data-fancybox-group="gallery" href="images/uploads/image181.jpg" ><img src="images/uploads/image18.jpg" alt=""></a>--}}
+                                            {{--<a class="img-lightbox"  data-fancybox-group="gallery" href="images/uploads/image191.jpg" ><img src="images/uploads/image19.jpg" alt=""></a>--}}
+                                            {{--<a class="img-lightbox"  data-fancybox-group="gallery" href="images/uploads/image201.jpg" ><img src="images/uploads/image20.jpg" alt=""></a>--}}
+                                            {{--<a class="img-lightbox"  data-fancybox-group="gallery" href="images/uploads/image211.jpg" ><img src="images/uploads/image2-1.jpg" alt=""></a>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+                                {{--</div>--}}
                                 <div id="moviesrelated" class="tab">
                                     <div class="row">
                                         <h3>Related Movies To</h3>
-                                        <h2>Skyfall: Quantum of Spectre</h2>
+                                        <h2>{{$film->original_title}}</h2>
                                         <div class="topbar-filter">
                                             <p>Found <span>12 movies</span> in total</p>
                                             <label>Sort by:</label>

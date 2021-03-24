@@ -5658,7 +5658,7 @@ ul {
 }
 /*movie single hero*/
 .mv-single-hero {
-  background: url('../img/uploads/hero-bg.jpg') no-repeat;
+  background: url('../img/rows.jpg') no-repeat;
   height: 598px;
 }
 /*series single hero*/
@@ -5672,14 +5672,14 @@ ul {
 }
 .common-hero {
   height: 385px;
-  background: url('../img/uploads/user-hero-bg.jpg') no-repeat;
+  background: url('../img/slider-bg.jpg') no-repeat;
 }
 .common-hero:before {
   background-color: rgba(0, 0, 0, 0.4);
 }
 .user-hero {
   height: 385px;
-  background: url('../img/uploads/user-hero-bg.jpg') no-repeat;
+  background: url('../img/slider-bg.jpg') no-repeat;
 }
 .user-hero .hero-ct {
   padding-top: 225px;
@@ -5711,7 +5711,7 @@ ul {
   background-color: rgba(0, 0, 0, 0.4);
 }
 .landing-hero {
-  background-image: url('../img/uploads/user-hero-bg.jpg');
+  background-image: url('../img/slider-bg.jpg');
   box-shadow: inset 0 0 1000px rgba(0, 0, 0, 0.5);
   text-align: center;
   padding: 110px 0;

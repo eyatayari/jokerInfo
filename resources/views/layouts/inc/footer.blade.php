@@ -2,19 +2,18 @@
     <div class="row">
         <div class="flex-parent-ft">
             <div class="flex-child-ft item1">
-                <a href="index.html"><img class="logo" src="images/logo1.png" alt=""></a>
-                <p>5th Avenue st, manhattan<br>
-                    New York, NY 10001</p>
-                <p>Call us: <a href="#">(+01) 202 342 6789</a></p>
+                <a href="index.html"><img class="logo " style="max-width: 101px" src="{{asset('img/white_joker.png')}}" alt=""></a>
+                <p>
+                   TUNISIA</p>
+                <p>Call us: <a href="#">(+216) 55 149 125</a></p>
             </div>
             <div class="flex-child-ft item2">
                 <h4>Resources</h4>
                 <ul>
                     <li><a href="#">About</a></li>
-                    <li><a href="#">Blockbuster</a></li>
+
                     <li><a href="#">Contact Us</a></li>
-                    <li><a href="#">Forums</a></li>
-                    <li><a href="#">Blog</a></li>
+
                     <li><a href="#">Help Center</a></li>
                 </ul>
             </div>
@@ -29,7 +28,7 @@
             <div class="flex-child-ft item4">
                 <h4>Account</h4>
                 <ul>
-                    <li><a href="#">My Account</a></li>
+
                     <li><a href="#">Watchlist</a></li>
                     <li><a href="#">Collections</a></li>
                     <li><a href="#">User Guide</a></li>
