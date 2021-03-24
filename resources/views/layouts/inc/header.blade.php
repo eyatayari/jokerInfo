@@ -11,7 +11,7 @@
                         <span></span>
                     </div>
                 </div>
-                <a href="index.html"><img class="logo" src="{{asset('img/white_joker.png')}}" alt="" width="119" height="58"></a>
+                <a href="{{route('home')}}"><img class="logo" src="{{asset('img/white_joker.png')}}" alt="" width="119" height="58"></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse flex-parent" id="bs-example-navbar-collapse-1">
@@ -20,47 +20,24 @@
                         <a href="#page-top"></a>
                     </li>
                     <li class=" first">
-                        <a class="btn btn-default  lv1" >
+                        <a class="btn btn-default  lv1" href="{{route('home')}}" >
                             Home
                         </a>
 
                     </li>
                     <li class=" first">
-                        <a class="btn btn-default dropdown-toggle lv1" data-toggle="dropdown" data-hover="dropdown">
+                        <a class="btn btn-default dropdown-toggle lv1" href="{{route('MovieList')}}">
                             movies
                         </a>
-                        <ul class="dropdown-menu level1">
-                            <!-- <li class="dropdown">
-                                <a href="#">about us <i class="fa fa-caret-right" aria-hidden="true"></i></a>
-                                <ul class="dropdown-menu level2">
-                                    <li><a href="aboutv1.html">About Us 01</a></li>
-                                    <li><a href="aboutv2.html">About Us 02</a></li>
-                                </ul>
-                            </li> -->
-                            <li><a href="moviegrid.html">Movie grid</a></li>
-                            <li><a href="moviegridfw.html">movie grid full width</a></li>
-                            <li><a href="movielist.html">Movie list</a></li>
-                            <li class="it-last"><a href="moviesingle.html">Movie single</a></li>
-                        </ul>
-                    </li>
-                    <li class=" first">
-                        <a class="btn btn-default  lv1" href="celebritygrid01.html" >
-                            celebrities
-                        </a>
-
 
                     </li>
 
-                    <li class=" first">
-                        <a href="userprofile.html" class="btn btn-default  lv1" >
-                            community </i>
-                        </a>
 
-                    </li>
+
                 </ul>
                 <ul class="nav navbar-nav flex-child-menu menu-right">
 
-                    <li class="btn signupLink"><a href="#">Add New Movie</a></li>
+                    <li class="btn "><a href="{{route('add_movie')}}">Add New Movie</a></li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
