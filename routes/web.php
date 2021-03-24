@@ -19,3 +19,4 @@ Route::get('/', function () {
 Route::get('/eya', function () {
     return view('MovieSingle');
 });
+
